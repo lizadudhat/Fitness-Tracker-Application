@@ -1,0 +1,148 @@
+
+body {
+  background-color: #d5eff1; 
+  font-family: 'Roboto', sans-serif;
+ 
+}
+
+
+.container {
+  margin-top: 50px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3, h4 {
+  color: #007bff; 
+}
+
+button {
+  width: 100%;
+}
+
+
+.dashboard {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Workout Log Form */
+form .form-group label {
+  font-weight: bold;
+  color: #333;
+}
+
+form .form-control {
+  border-radius: 6px;
+  padding: 10px;
+}
+
+form button {
+  background-color: #28a745; 
+  border-color: #28a745;
+}
+
+.statistics-chart {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gole {
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.gole h4 {
+  color: #007bff; 
+}
+
+.gole input,
+.gole button {
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 10px;
+}
+
+.gym-banner {
+  background-image: url('https://t3.ftcdn.net/jpg/05/62/71/86/360_F_562718625_BM93noP9JDAR8kiBPfRy0h4WTvUwYXNH.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px; 
+  text-align: center;
+  border-radius: 10px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s, background-color 0.3s; 
+  backdrop-filter: blur(10px); 
+  position: relative;
+  overflow: hidden; 
+  height: 400px;
+}
+
+.gym-banner::before {
+  content: ''; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px; 
+  z-index: 1; 
+}
+
+.gym-banner:hover {
+  transform: scale(1.05); 
+}
+
+.banner-content {
+  position: relative; 
+  z-index: 2; 
+}
+
+.banner-content h1 {
+  font-size: 3rem; 
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.banner-content p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.explore-button {
+  background-color: #2dc9d7; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+.explore-button:hover {
+  background-color: #1fa5a8; 
+  transform: scale(1.05); 
+}
